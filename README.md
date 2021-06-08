@@ -18,11 +18,11 @@ $ yarn add -D @forxtu/eslint-plugin-react-native-a11y
 
 ## Usage
 
-Add `rn-a11y` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@forxtu/react-native-a11y` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-  "plugins": ["react-native-a11y"]
+  "plugins": ["@forxtu/react-native-a11y"]
 }
 ```
 
@@ -31,11 +31,11 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "react-native-a11y/rule-name": 2
+    "@forxtu/react-native-a11y/rule-name": 2
   }
 }
 ```
 
 ## Supported Rules
 
-- pressable-has-accessibility-role
+- [pressable-has-accessibility-role](https://github.com/forxtu/fx2-eslint-plugin-react-native-a11y/blob/master/docs/rules/pressable-has-accessibility-role.md)
