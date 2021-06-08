@@ -1,0 +1,30 @@
+{
+  "name": "@forxtu/eslint-plugin-react-native-a11y",
+  "version": "0.0.1",
+  "description": "Set of custom rules for RN a11y",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "forxtu",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --copy-files",
+    "test": "jest __tests__/rules/*"
+  },
+  "dependencies": {
+    "jsx-ast-utils": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.3",
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "eslint": "^7.1.0",
+    "jest": "^27.0.4"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
