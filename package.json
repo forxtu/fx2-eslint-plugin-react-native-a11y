@@ -1,6 +1,6 @@
 {
   "name": "@forxtu/eslint-plugin-react-native-a11y",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Set of custom rules for RN a11y",
   "keywords": [
     "eslint",
