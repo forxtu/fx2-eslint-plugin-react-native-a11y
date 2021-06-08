@@ -26,5 +26,17 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forxtu/fx2-eslint-plugin-react-native-a11y.git"
+  },
+  "bugs": {
+    "url": "https://github.com/forxtu/fx2-eslint-plugin-react-native-a11y/issues"
+  },
+  "homepage": "https://github.com/forxtu/fx2-eslint-plugin-react-native-a11y#readme"
 }
